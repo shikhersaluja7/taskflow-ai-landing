@@ -1,4 +1,4 @@
-// Smooth scroll for navigation links
+// Smooth scroll for navigation links in UI
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
